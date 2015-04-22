@@ -14,7 +14,7 @@ class Car(Vehicle):
     def GetColor(self):
         return self.CarColor
 
-mustang = Car("yellow")
+mustang = Car("blue")
 lorry = Vehicle("8")
 print ( mustang.GetColor())
 print ( mustang.GetWheels())
